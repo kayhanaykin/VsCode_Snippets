@@ -34,7 +34,7 @@
 			"valg: clear $(NAME) clean",
 			"    valgrind ./myprogram",
 			"",
-			"seg: FLAGS += -fsanitize=address",
+			"seg: FLAGS += -fsanitize=address -g",
 			"",
 			"seg: clear $(NAME) clean run",
 			"",
